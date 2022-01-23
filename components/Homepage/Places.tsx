@@ -7,7 +7,7 @@ const Places: React.FC = () => {
         <div className="absolute w-full h-full bg-gradient-to-tr from-pink-500 to-yellow-400 rounded-md shadow-md transition ease-in-out duration-1000 group-hover:blur-lg group-hover:duration-200"></div>
         <div className="relative w-full h-full flex items-center justify-center transition duration-250">
           <div className="absolute flex flex-col items-center justify-center p-3 w-3/4 h-3/4 opacity-0 bg-gradient-to-tr from-slate-300 to-white rounded-sm transition duration-150 group-hover:opacity-95 group-hover:shadow-md">
-            <h1 className="text-lg font-semibold">Scar's Pizza</h1>
+            <h1 className="text-lg font-semibold">Scar&apos;s Pizza</h1>
             <h1 className="text-gray-700 mb-4">New York</h1>
             <div className="flex justify-center space-x-2">
               <h1>

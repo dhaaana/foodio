@@ -1,13 +1,7 @@
-import React, { useState, useRef, useEffect } from "react";
-
-interface IParallax {
-  transform: string;
-}
+import React, { useState } from "react";
 
 const Hero: React.FC = () => {
   const [heroGradient, setHeroGradient] = useState<true | false>(false);
-  const [parallax, setParallax] = useState<IParallax>({ transform: `translateX(0%) translateY(0%)` });
-  const burger = useRef<HTMLDivElement | null>(null);
 
   return (
     <div className="h-[33rem] p-5 flex flex-col items-center justify-center">
@@ -20,7 +14,7 @@ const Hero: React.FC = () => {
         </h1>
         <div className="max-w-3xl mx-auto">
           <p className="text-xl px-3 text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-            Track restaurant you've visited, save those you want to visit, write your thoughts on food and beverages, tell your friends what's good.
+            Track restaurant you&apos;ve visited, save those you want to visit, write your thoughts on food and beverages, tell your friends what&apos;s good.
           </p>
         </div>
       </div>
