@@ -3,7 +3,7 @@ import React from "react";
 const List = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 min-h-[5rem] w-[30rem] mx-5 my-4">
+      <div className="grid grid-cols-3 min-h-[5rem] w-[29rem] mx-5 my-4">
         <div className="h-28 w-20 m-4 rounded-md flex -space-x-10">
           <img className="w-full h-full object-cover rounded-md float-left" src="https://s3-media0.fl.yelpcdn.com/bphoto/ttFJjeLVKNdNjQ74ytVPrA/348s.jpg" alt="food" />
           <img className="w-full h-full object-cover rounded-md float-left" src="https://s3-media0.fl.yelpcdn.com/bphoto/ttFJjeLVKNdNjQ74ytVPrA/348s.jpg" alt="food" />

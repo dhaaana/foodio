@@ -20,7 +20,7 @@ const Main = () => {
             return <List key={num} />;
           })}
         </div>
-        <div className="w-full px-16 mt-10 mb-10 grid gap-x-7 grid-cols-7 2xl:w-3/4 2xl:px-4">
+        <div className="w-full mt-10 mb-10 grid gap-x-7 grid-cols-7 2xl:w-3/4 2xl:px-14">
           <div className="col-span-5">
             <h1 className="text-lg font-semibold mb-4">Popular Review This Week</h1>
             {[0, 1, 2, 3, 4].map((num) => {
